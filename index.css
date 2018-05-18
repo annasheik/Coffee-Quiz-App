@@ -6,13 +6,14 @@
   font-family: 'Tajawal', sans-serif;
 }
 body {
-  background-image: url('https://image.ibb.co/fQxcdc/background_beans_black_coffee_867470.jpg');
-background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed;
-background-size: cover;
--webkit-filter: contrast(1.25);
+  background: linear-gradient(rgba(250, 250, 250, 0.9), rgba(255, 255, 255, -28)), #9E9E9E url(https://image.ibb.co/fQxcdc/background_beans_black_coffee_867470.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-filter: contrast(1.25);
   filter: contrast(1.25);
+
 } 
 
 /*header styling*/
